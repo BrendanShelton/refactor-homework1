@@ -1,13 +1,16 @@
+/*applies styles to all elements*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*sets the background color of the background of the body*/
 body {
     background-color: #d9dcd6;
 }
 
+/*styles the header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/*styles the h1 element in the header*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*sets the color of the letters "seo" in the h1 element in the header*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/*styles the navigation bar*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ header nav {
     font-size: 20px;
 }
 
+/*sets the list items in the navigation bar to have no bullet points*/
 header nav ul {
     list-style-type: none;
 }
 
+/*sets the list items to be displayed inline and sets their left margins*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*sets the color of the links and sets them to not be underlined*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*sets the font size of paragraph text*/
 p {
     font-size: 16px;
 }
 
+/*styles the large image at the top of the website*/
 figure img {
     height: 800px;
     width: 100%;
@@ -58,22 +69,26 @@ figure img {
     background-position: center;
 }
 
+/*applies to images which should be on the left side of their containers*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*applies to an image which should be on the left side of its containers*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
+/*styles the main content of the website*/
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*styles the box on the right*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -84,20 +99,27 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
+/*styles the articles within the box on the right*/
 aside article {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
+/*styles the headings within the articles within the box on the right*/
 aside article h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/*styles the images within the articles within the box on the right*/
 aside article img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*styles the articles within the main content*/
 section article {
     margin-bottom: 20px;
     padding: 50px;
@@ -107,15 +129,18 @@ section article {
     color: #ffffff;
 }
 
+/*sets the height of images within the main content*/
 section img {
     max-height: 200px;
 }
 
+/*styles the headings in the articles within the main content*/
 section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*styles the footer*/
 footer {
     padding: 30px;
     clear: both;
@@ -123,6 +148,7 @@ footer {
     text-align: center;
 }
 
+/*sets the font size of the heading in the footer*/
 footer h2 {
     font-size: 20px;
 }
