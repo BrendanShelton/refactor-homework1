@@ -13,8 +13,8 @@ N/A
 
 Click on the items in the navigation bar in the header to scroll to the corresponding section.
 
-![screenshot of top of website](assets/images/screenshot1.png)
-![screenshot of bottom of website](assets/images/screenshot2.png)
+![screenshot of top of website](assets/images/screenshot1.PNG)
+![screenshot of bottom of website](assets/images/screenshot2.PNG)
 
 ## Credits
 
