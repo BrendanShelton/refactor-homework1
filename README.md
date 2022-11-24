@@ -17,6 +17,11 @@ https://brendanshelton.github.io/refactored-website/
 ![screenshot of top of website](assets/images/screenshot1.PNG)
 ![screenshot of bottom of website](assets/images/screenshot2.PNG)
 
+
+## Technologies used
+
+HTML, CSS
+
 ## Credits
 
 N/A
