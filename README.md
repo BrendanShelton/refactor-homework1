@@ -24,7 +24,7 @@ HTML, CSS
 
 ## Credits
 
-N/A
+This is based on starter code provided as part of an assignment for the University of Richmond coding bootcamp.
 
 ## License
 
